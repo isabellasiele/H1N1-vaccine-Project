@@ -1,9 +1,9 @@
-Vaccine Uptake Prediction Project
-Objective
+# Vaccine Uptake Prediction Project
+## Objective
 
 To develop a classification model that predicts whether individuals received the H1N1 vaccine using demographic characteristics, health-related behaviors, and personal opinions reported in survey data.
 
-Overview
+## Overview
 
 This project focuses on predicting H1N1 vaccine uptake using survey data that captures individuals’ backgrounds, behaviors, and perceptions related to health and vaccination. Multiple machine learning models were built and evaluated to identify the most effective approach for predicting vaccine uptake while addressing class imbalance and performance trade-offs.
 
@@ -12,7 +12,7 @@ Stakeholder Audience
 
 The primary stakeholders are public health officials and policymakers who aim to improve vaccination campaigns and resource allocation. Understanding which factors influence vaccine uptake enables targeted public health interventions and more effective communication strategies.
 
-Dataset Understanding
+## Dataset Understanding
 
 The dataset contains self-reported survey responses including:
 
@@ -24,7 +24,7 @@ Opinions and beliefs about H1N1 risk and vaccine effectiveness
 
 The target variable is binary, indicating whether an individual received the H1N1 vaccine. The dataset is imbalanced, with fewer vaccinated individuals, making precision and recall critical evaluation metrics.
 
-Modeling
+## Modeling
 
 The following models were implemented:
 
@@ -60,7 +60,7 @@ Tuned Decision Tree
 
 Feature importance analysis revealed that perceived risk, belief in vaccine effectiveness, and concern about H1N1 were the most influential predictors, outweighing demographic variables.
 
-Evaluation
+## Evaluation
 
 Models were evaluated using:
 
@@ -70,7 +70,7 @@ Precision, Recall, and F1-score
 
 Confusion matrices
 
-Key Observations
+## Key Observations
 
 Logistic Regression favored identifying vaccinated individuals (high recall)
 
@@ -82,7 +82,7 @@ No single model optimized both precision and recall simultaneously
 
 This highlights an important trade-off between confidence in predictions and coverage of vaccinated individuals.
 
-Conclusion
+## Conclusion
 
 This study demonstrates that vaccine uptake is strongly influenced by individual perceptions and behaviors rather than demographics alone. While Logistic Regression offered interpretability and strong baseline performance, tuned models improved prediction confidence by reducing false positives.
 
