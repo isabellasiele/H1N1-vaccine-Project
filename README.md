@@ -1,6 +1,6 @@
 # Vaccine Uptake Prediction Project
 
-[Flu Vaccine](Images/flu-vaccine.jpg)
+![Flu Vaccine](Images/flu-vaccine.jpg)
 
 ## Overview
 
