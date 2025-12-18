@@ -1,5 +1,7 @@
 # Vaccine Uptake Prediction Project
 
+[Flu Vaccine](Images/flu-vaccine.jpg)
+
 ## Overview
 
 This project develops machine learning models to predict whether individuals received the H1N1 vaccine based on demographic information, health behaviors, and personal opinions collected from the National 2009 H1N1 Flu Survey. By identifying key factors that influence vaccination decisions, this analysis provides actionable insights for public health officials to design more effective vaccination campaigns and address vaccine hesitancy.
@@ -66,9 +68,10 @@ Best Model Selection
 Baseline Logistic Regression is selected as the final model based on:
 
 Highest ROC-AUC score (0.8237): Good ability to distinguish between those who will and won't get vaccinated.
-Highest accuracy (77.2%): Most correct predictions overall
-Strong recall (0.72): Identifies 68% of vaccinated individuals
-Balanced performance: Good trade-off between precision and recall
+Highest accuracy (77.2%): Most correct predictions overall.
+Strong recall (0.72): Identifies 68% of vaccinated individuals.
+Highest f1 score(0.5769) which is the best balance between recall and precision.
+Balanced performance: Good trade-off between precision and recall.
 
 ## Conclusion
 
@@ -77,8 +80,8 @@ This study demonstrates that vaccine uptake is strongly influenced by individual
 Class imbalance presents an inherent trade-off. Higher recall models identify more vaccinees but generate more false positives. Higher precision models are more confident but miss more vaccinees.
 
 ## Reccomendations
-- Strengthen doctor-patient communication
-- Address vaccine effectiveness misconceptions
-- Reduce percieved barriers and risks
-- Target individuals with high concern but low vaccination rates
+- Strengthen doctor-patient communication.
+- Address vaccine effectiveness misconceptions.
+- Reduce percieved barriers and risks.
+- Target individuals with high concern but low vaccination rates.
 
