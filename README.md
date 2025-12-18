@@ -4,7 +4,7 @@
 
 This project develops machine learning models to predict whether individuals received the H1N1 vaccine based on demographic information, health behaviors, and personal opinions collected from the National 2009 H1N1 Flu Survey. By identifying key factors that influence vaccination decisions, this analysis provides actionable insights for public health officials to design more effective vaccination campaigns and address vaccine hesitancy.
 
-Business and Data Understanding
+## Business and Data Understanding
 Stakeholder Audience
 
 The primary stakeholders are public health officials and policymakers who aim to improve vaccination campaigns and resource allocation. Understanding which factors influence vaccine uptake enables targeted public health interventions and more effective communication strategies.
@@ -84,6 +84,7 @@ Class imbalance presents an inherent trade-off. Higher recall models identify mo
 
 
 ## Repository Structure
+
 ├── Data/
 │   ├── training_set_features.csv
 │   ├── training_set_labels.csv
